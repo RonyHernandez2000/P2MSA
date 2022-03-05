@@ -1,11 +1,12 @@
 import React from "react";
 
-function loginPage(){
+function aboutUS(){
 return(
     <div>
         
     </div>
 )
+
 }
 
-export default loginPage
+export default aboutUS
