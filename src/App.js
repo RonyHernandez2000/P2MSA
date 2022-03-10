@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LoginLogic from './components/loginLogic';
 
 function App() {
+ 
   return (
-    <div className="App">
-      
+   <div className="app">
+     <LoginLogic/>
     </div>
   );
 }
