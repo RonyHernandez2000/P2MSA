@@ -17,7 +17,7 @@ return(
         <div className="loginLogic">
     <div onClick={toggleloginLogic} className="overlay"> </div>
     <div className="loginLogic-content">
-    <input type="password" placeholder="Enter Secret Code" name="psw" required/>
+    <input  type="password" placeholder="Enter Secret Code" name="psw" required/>
         <button onClick={toggleloginLogic}> CLOSE</button>
     </div>
 </div>)

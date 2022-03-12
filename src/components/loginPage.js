@@ -1,5 +1,5 @@
 import React from "react";
-import loginLogic from "./loginLogic";
+import LoginLogic from "./loginLogic";
 
 function loginPage(){
 return(
