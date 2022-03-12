@@ -1,6 +1,7 @@
 
 import React, {useState} from "react";
-import "./loginlogic.css";
+import "./loginLogic.css";
+
 
 function LoginLogic(){
     const [loginLogic, setloginLogic]= useState(false);
@@ -10,6 +11,9 @@ function LoginLogic(){
     } 
 return(
     <div >
+        <h1>
+            TWEET2TWEET
+        </h1>
         <button onClick={toggleloginLogic} className="btn-loginLogic">
             Code
         </button>
