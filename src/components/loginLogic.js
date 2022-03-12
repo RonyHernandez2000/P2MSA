@@ -1,9 +1,17 @@
-
 import React, {useState} from "react";
 import "./loginLogic.css";
 
 
+
+// npm install react-router-dom
 function LoginLogic(){
+
+    let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/home`; 
+    navigate(path);
+  }
+
     const [loginLogic, setloginLogic]= useState(false);
     
     const toggleloginLogic = () => {
@@ -21,8 +29,16 @@ return(
         <div className="loginLogic">
     <div onClick={toggleloginLogic} className="overlay"> </div>
     <div className="loginLogic-content">
-    <input type="password" placeholder="Enter Secret Code" name="psw" required/>
-        <button onClick={toggleloginLogic}> CLOSE</button>
+    <input  type="password" placeholder="Enter Secret Code" name="psw" required/>
+        
+        <br/>
+        <button color="primary" className="px-4"
+            onClick={routeChange}
+              >
+              submit
+            </button>
+       
+        
     </div>
 </div>)
 }
