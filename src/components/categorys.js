@@ -1,10 +1,10 @@
 import React from 'react'
 
-function category() {
+function Category() {
     return(
         <h1>List of trending topics</h1>
         
 
     )
 }
-export default category
+export default Category

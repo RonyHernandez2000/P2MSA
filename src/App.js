@@ -1,12 +1,12 @@
 
 import './App.css';
-import LoginLogic from './components/loginLogic';
+import Main from './components/Main';
 
 function App() {
  
   return (
    <div className="app">
-     <LoginLogic/>
+     <Main/>
     </div>
   );
 }
