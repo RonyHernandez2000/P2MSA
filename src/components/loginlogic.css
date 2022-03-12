@@ -1,14 +1,14 @@
 body.active-loginLogic{
     overflow-y: hidden;
   }
-  
   .btn-loginLogic {
     padding: 10px 20px;
     display: block;
-    margin: 100px auto 0;
-    font-size: 18px;
+    margin: 500px auto;
+    font-size: 80px;
+    color: rgb(255, 0, 0);
   }
-  
+
   .loginLogic, .overlay {
     width: 100vw;
     height: 100vh;
@@ -24,7 +24,7 @@ body.active-loginLogic{
   }
   .loginLogic-content {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
@@ -40,4 +40,18 @@ body.active-loginLogic{
     top: 10px;
     right: 10px;
     padding: 5px 7px;
+  }
+
+  body{
+    background-color: red;
+  }
+  h1{
+    font-family: "Gill Sans", sans-serif;
+    border-radius: 50%;
+
+      color: pink;
+      opacity: 60%;
+      font-weight: bold;
+      font-size: 60px;
+      text-align:center;
   }
