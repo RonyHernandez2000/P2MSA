@@ -1,5 +1,6 @@
 import './App.css';
 import Main from './components/Main';
+const React = require('react')
 
 function App() {
  

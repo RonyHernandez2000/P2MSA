@@ -2,7 +2,8 @@ import React from "react";
 import LoginLogic from "./loginLogic";
 
 function loginPage(){
-return(
+
+    return(
     <div >
         
     </div>
