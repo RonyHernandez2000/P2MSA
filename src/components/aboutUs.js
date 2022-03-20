@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./aboutUs.css"
 function AboutUS(){
 return(
     <div>
@@ -9,7 +9,6 @@ return(
     <br></br>
     <h2>Back End Dev</h2>
     <br></br>
-    <h3>Benjamin Franco</h3>
     <h3>Rony Hernandez</h3>
     <br></br>
     <h2>Why did we make this app?</h2>

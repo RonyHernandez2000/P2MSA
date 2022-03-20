@@ -15,9 +15,9 @@ const URL ="https://newsapi.org/v2/top-headlines?country=us&apiKey=4573a3543b2d4
         console.log(data.image)
         return(
           
-            <div key={data.totalResults}className='div-product'>
+            <div key={data.id}className='div-product'>
             {data.map(data =>(
-        <div key={data.totalResults}> 
+        <div key={data.id}> 
         <ul>
   <li>{data.name}</li>
   <li>{data.title}</li>

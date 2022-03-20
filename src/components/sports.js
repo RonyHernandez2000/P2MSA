@@ -7,16 +7,16 @@ import {useState, useEffect} from 'react';
     const Sports= ()=>{
 
         const [data,setData] = useState([]);
+
         useEffect(()=>{
           requestData().then(data=> setData(data))
         },[]);
-        
-        
+     
         return(
           
-            <div key={data.totalResults} className='div-product'>
+            <div key={data.id} className='div-product'>
             {data.map(data =>(
-        <div key={data.totalResults}> 
+        <div key={data.id}> 
         <ul>
   <li>{data.name}</li>
   <li>{data.title}</li>

@@ -20,7 +20,7 @@ function Main (){
         <Route path='/random' element={<RandomUser/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/sports' element={<Sports/>}/>
-        <Route path='/music' element={<Entertainment/>}/>
+        <Route path='/entertainment' element={<Entertainment/>}/>
 
 
         <Route path="*" element={<Navigate to="/login" replace />} />
