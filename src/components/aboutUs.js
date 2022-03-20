@@ -1,5 +1,5 @@
 import React from "react";
-
+import "/Users/frankbourdier/NJIT/P2MSA/src/aboutUs.css";
 function AboutUS(){
 return(
     <div>
